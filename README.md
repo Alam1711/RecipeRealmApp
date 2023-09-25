@@ -41,3 +41,14 @@ You can generate native iOS and Android projects from your Expo config file (**a
 - Learn more about [Universal React](https://docs.expo.dev/).
 - See what API and components are [available in the React runtimes](https://docs.expo.dev/versions/latest/).
 - Find out more about developing apps and websites: [Guides](https://docs.expo.dev/guides/).
+
+## Run Flask##
+
+-use source venv/bin/activate to run Flask virtual enviroment on Mac OS
+-use source venv/Scripts/activate to run Flask virtual enviroment in git bash
+-use source venv\Scripts\activate.bat to run Flask virtual enviroment on windows
+
+## Install Required libraries ##
+-pip install -r requirements.txt
+or
+-pip3 install -r requirements.txt
