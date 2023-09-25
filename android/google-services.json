@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "391895316870",
+    "project_id": "reciperealm-cbc4f",
+    "storage_bucket": "reciperealm-cbc4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:391895316870:android:2271c76f44bf699b291407",
+        "android_client_info": {
+          "package_name": "com.company.reciperealm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiV7UrMRSYU3FUtkUQmrByV3hSz4kok7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
