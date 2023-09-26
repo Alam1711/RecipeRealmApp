@@ -195,6 +195,9 @@ dependencies {
     implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.firebase:firebase-firestore-ktx")
 
+    //okHttp for communication with flask
+    implementation("com.squareup.okhttp3:okhttp:4.9.0")
+
 
 
     def isGifEnabled = (findProperty('expo.gif.enabled') ?: "") == "true";
