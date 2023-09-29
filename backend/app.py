@@ -2,8 +2,11 @@
 #default_app = firebase_admin.initialize_app()
 
 # imports
-import json, requests, os                 # os is used to get environment variables IP & PORT
-from flask import Flask, jsonify   # Flask is the web app that we will customize
+import os                 # os is used to get environment variables IP & PORT
+import json
+import requests
+
+from flask import Flask, jsonify  # Flask is the web app that we will customize
 
 app = Flask(__name__)
 
@@ -27,4 +30,4 @@ def get_nutrition():
     return jsonify(response)
 
 if __name__ == 'main':
-    app.run(debug = True)
+   app.run(host=os.getenv('IP', '127.0.0.1'),port=int(os.getenv('PORT', 5000)),debug=True)

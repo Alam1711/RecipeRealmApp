@@ -1,4 +1,4 @@
-#!C:\Users\lassi\OneDrive\Desktop\RecipeRealm\RecipeRealmApp\venv\Scripts\python.exe
+#!C:\Users\lassi\RecipeRealm\venv\Scripts\python.exe
 # -*- coding: utf-8 -*-
 # Copyright 2023 Google LLC
 #
